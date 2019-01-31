@@ -1,0 +1,39 @@
+[
+  {
+    "id": "youtube",
+    "url": "https://www.youtube.com",
+    "embeds": [
+      "https://www.youtube.com/embed/{ID}",
+      "https://www.youtube-nocookie.com/embed/{ID}"
+    ],
+    "links": [
+      "https://www.youtube.com/watch?v={ID}",
+      "https://youtu.be/{ID}",
+      "youtube.com/v/{ID}",
+      "youtube.com/vi/{ID}",
+      "youtube.com/?v={ID}",
+      "youtube.com/?vi={ID}"
+    ]
+  },
+  {
+    "id": "vimeo",
+    "url": "https://vimeo.com",
+    "item_id": "number",
+    "embeds": [
+      "https://player.vimeo.com/video/{ID}"
+    ],
+    "links": [
+      "https://vimeo.com/{ID}"
+    ]
+  },
+  {
+    "id": "videopress",
+    "url": "https://videopress.com",
+    "embeds": [
+      "https://videopress.com/embed/{ID}"
+    ],
+    "links": [
+      "https://videopress.com/v/{ID}"
+    ]
+  }
+]
